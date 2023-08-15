@@ -1,0 +1,127 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 50px;
+}
+
+.portfolio {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+.portfolio span {
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.portfolio strong {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.navigation-menu {
+  display: none;
+}
+
+@media (max-width: 880px) {
+  .navbar a {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .navbar {
+    padding: 8px 20px;
+  }
+
+  .navbar a {
+    display: none;
+  }
+
+  .navigation-menu {
+    display: block;
+  }
+
+  .fa-bars {
+    width: 30px;
+    height: 3px;
+    color: #fff;
+    /* Use a color value here */
+  }
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 50px;
+}
+
+.portfolio {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+.portfolio span {
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.portfolio strong {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.navigation-menu {
+  display: none;
+}
+
+@media (max-width: 880px) {
+  .navbar a {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 426px) {
+  .navbar {
+    padding: 8px 20px;
+  }
+
+  .navbar a {
+    display: none;
+  }
+
+  .navigation-menu {
+    display: block;
+  }
+
+  .navigation-menu a {
+    display: inline;
+    margin-right: 5px;
+  }
+
+  .fa-bars {
+    color: #fff;
+  }
+}
