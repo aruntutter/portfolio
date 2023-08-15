@@ -8,16 +8,6 @@
   padding: 15px 20px;
 }
 
-/* Navbar.css */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  color: #fff;
-  padding: 15px 20px;
-}
-
 .navbar a {
   text-decoration: none;
   color: #fff;
