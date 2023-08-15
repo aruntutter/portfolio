@@ -9,6 +9,9 @@ const Home = () => {
           src={require("../assets/images/mountain-img.jpg")}
           alt="Background"
         />
+        <div className="read-more">
+          <a href="#about">Read More</a>
+        </div>
         <div className="overlay">
           <h1>I'm Arun Kumar R.</h1>
           <p>
