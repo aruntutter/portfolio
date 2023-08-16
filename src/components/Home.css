@@ -47,11 +47,12 @@
   opacity: 1;
 }
 
-.read-more a {
+.read-more button {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
   font-size: 14px;
+  background-color: transparent;
 }
 
 .overlay {

@@ -49,11 +49,12 @@
   opacity: 1;
 }
 
-.contact-btn a {
+.contact-btn button {
   text-decoration: none;
   color: #000;
   font-weight: bold;
   font-size: 14px;
+  background-color: transparent;
 }
 
 .about-img {

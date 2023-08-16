@@ -10,7 +10,7 @@ const Home = () => {
           alt="Background"
         />
         <div className="read-more">
-          <a href="#about">Read More</a>
+          <button>Read More</button>
         </div>
         <div className="overlay">
           <h1>I'm Arun Kumar R.</h1>

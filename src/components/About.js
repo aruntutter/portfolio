@@ -15,7 +15,7 @@ const About = () => {
           solutions, enhancing user engagement and satisfaction."
         </p>
         <div className="contact-btn ">
-          <a href="#about">Connect</a>
+          <button>Connect</button>
         </div>
       </div>
       <div className="about-img">
