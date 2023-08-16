@@ -25,7 +25,6 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  background-color: rgb(185, 182, 182);
   padding: 20px;
 }
 
@@ -62,6 +61,8 @@ li {
   }
 
   .tech-icons li img {
+    max-width: 60px;
+    height: auto;
     margin: 15px;
   }
 
