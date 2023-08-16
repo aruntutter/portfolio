@@ -11,7 +11,7 @@ const Navbar = () => {
         </h1>
       </div>
       <div className="navbar-right">
-        <a href="/">Home</a>
+        <a href="/home">Home</a>
         <a href="/about">About</a>
         <a href="/skills">Skills</a>
         <a href="/projects">Projects</a>
@@ -19,7 +19,7 @@ const Navbar = () => {
       </div>
       <div className="navigation-menu">
         <a href="#">
-          <i class="fa fa-bars"></i>
+          <i className="fa fa-bars"></i>
         </a>
       </div>
     </nav>
