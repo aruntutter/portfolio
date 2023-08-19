@@ -28,6 +28,7 @@
   text-decoration: none;
   font-size: 1.2rem;
   margin-bottom: 10px;
+  text-decoration: underline;
 }
 
 .contact-form {
@@ -84,18 +85,46 @@
     margin-bottom: 30px;
   }
 
+  .contact-by h1 {
+    font-size: 24px;
+    margin: 20px auto;
+  }
+
+  .contact-by p {
+    font-size: 14px;
+  }
+
+  .contact-by a {
+    font-size: 16px;
+    color: blueviolet;
+    text-decoration: underline;
+  }
+
   .contact-form {
     border: none;
     padding: 0;
   }
 
   .contact-form h3 {
-    font-size: 1.3rem;
+    font-size: 16px;
     margin-bottom: 15px;
+  }
+
+  .contact-form form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 2px;
   }
 
   .contact-form form input,
   .contact-form form textarea {
     margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .contact-form form button {
+    padding: 10px 20px;
+    border-radius: 0;
+    font-size: 14px;
   }
 }

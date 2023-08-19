@@ -74,8 +74,21 @@
 }
 
 @media (max-width: 768px) {
+
+  .home-container {
+    height: calc(100vh - 45px);
+  }
+
+  .read-more button {
+    font-size: 10px;
+  }
+
   .overlay h1 {
-    font-size: 1.75rem;
+    font-size: 1.3rem;
     margin-bottom: 25px;
+  }
+
+  .overlay p {
+    font-size: 1rem;
   }
 }

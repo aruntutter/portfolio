@@ -3,7 +3,7 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <div className="skill-container">
+    <div id="skills" className="skill-container">
       <div className="skill-text">
         <h1>Technical Proficiency</h1>
         <p>

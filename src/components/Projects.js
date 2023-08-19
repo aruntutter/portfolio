@@ -42,7 +42,7 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <div className="projects-container">
+    <div id="projects" className="projects-container">
       <div className="projects-title">
         <h1>Showcase of My Work</h1>
       </div>
@@ -61,6 +61,9 @@ const Projects = () => {
             <p className="project-name">{project.title}</p>
           </div>
         ))}
+      </div>
+      <div className="github-repo">
+        <button>GitHub Repository</button>
       </div>
     </div>
   );

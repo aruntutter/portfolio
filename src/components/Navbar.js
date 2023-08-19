@@ -2,6 +2,13 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-left">
@@ -11,11 +18,21 @@ const Navbar = () => {
         </h1>
       </div>
       <div className="navbar-right">
-        <a href="/home">Home</a>
-        <a href="/about">About</a>
-        <a href="/skills">Skills</a>
-        <a href="/projects">Projects</a>
-        <a href="/contact">Contact</a>
+        <a href="#home" onClick={() => scrollToSection("home")}>
+          Home
+        </a>
+        <a href="#about" onClick={() => scrollToSection("about")}>
+          About
+        </a>
+        <a href="#skills" onClick={() => scrollToSection("skills")}>
+          Skills
+        </a>
+        <a href="#projects" onClick={() => scrollToSection("projects")}>
+          Projects
+        </a>
+        <a href="#contact" onClick={() => scrollToSection("contact")}>
+          Contact
+        </a>
       </div>
       <div className="navigation-menu">
         <a href="#">

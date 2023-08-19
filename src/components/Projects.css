@@ -64,18 +64,33 @@
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.github-repo {
+  margin-top: 40px;
+  border: 2px solid;
+}
+
 @media (max-width: 768px) {
   .projects-container {
     padding: 30px 0;
   }
 
   .projects-title h1 {
-    font-size: 2rem;
+    font-size: 24px;
     margin-bottom: 40px;
   }
 
   .project {
-    flex: 0 0 calc(50% - 20px);
+    flex: 0 0 calc(50% - 15px);
     margin-bottom: 0;
+  }
+
+  .project-link {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+
+  .github-repo {
+    margin-top: 40px;
+    border: 2px solid;
   }
 }

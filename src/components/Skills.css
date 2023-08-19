@@ -43,17 +43,30 @@ li {
 
 @media (max-width: 768px) {
 
+  .skill-container {
+    padding: 40px 0;
+  }
+
   .skill-text {
     text-align: center;
     line-height: 1.5rem;
   }
 
-  h1 {
-    margin: 2rem 0;
+  .skill-text h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .skill-text p {
+    font-size: 14px;
+    padding: 7px 5px;
+    margin-top: 20px;
   }
 
   .tech-icons ul {
     justify-content: center;
+    padding: 0;
+    gap: 7px;
   }
 
   .tech-icons li {
@@ -61,7 +74,7 @@ li {
   }
 
   .tech-icons li img {
-    max-width: 60px;
+    max-width: 40px;
     height: auto;
     margin: 15px;
   }
