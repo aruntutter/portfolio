@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 10px;
+  padding: 80px 0;
 }
 
 .contact-by {
@@ -24,7 +24,7 @@
 
 .contact-by a {
   display: block;
-  color: #333;
+  color: blue;
   text-decoration: none;
   font-size: 1.2rem;
   margin-bottom: 10px;
@@ -58,11 +58,12 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1.1rem;
+  background-color: #aaa8a8;
 }
 
 .contact-form form button {
-  background-color: #333;
-  color: #fff;
+  background-color: #aaa8a8;
+  color: #000;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -75,10 +76,34 @@
   background-color: #555;
 }
 
+/* Scroll To Top button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.scroll-to-top:hover {
+  background-color: #333;
+  transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
   .contact-container {
     flex-direction: column;
     text-align: center;
+    padding: 5px 0;
   }
 
   .contact-by {
@@ -96,8 +121,6 @@
 
   .contact-by a {
     font-size: 16px;
-    color: blueviolet;
-    text-decoration: underline;
   }
 
   .contact-form {
@@ -114,6 +137,10 @@
     display: block;
     font-size: 14px;
     margin-bottom: 2px;
+  }
+
+  .contact-form form input {
+    color: #fff;
   }
 
   .contact-form form input,

@@ -1,12 +1,16 @@
 /* Navbar.css */
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #000;
   color: #fff;
   padding: 15px 20px;
+  transition: background-color 0.3s;
 }
 
 .navbar a {
@@ -60,14 +64,24 @@
 
   .navigation-menu {
     display: block;
+    cursor: pointer;
   }
 
-  .navigation-menu a {
-    display: inline;
-    margin-right: 5px;
-  }
-
-  .fa-bars {
+  /* When menu is open */
+  .menu-open .navigation-menu {
     color: #fff;
+    font-size: 20px;
+  }
+
+  .menu-open .navbar-right {
+    display: block;
+  }
+
+  .menu-open .navbar a {
+    display: block;
+    margin-right: 5px;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 0;
   }
 }

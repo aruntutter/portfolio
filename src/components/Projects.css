@@ -1,6 +1,6 @@
 /* Projects.css */
 .projects-container {
-  padding: 40px 0;
+  padding: 80px 0;
   text-align: center;
 }
 
@@ -29,6 +29,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-height: 300px;
+  border: 2px solid rgb(175, 248, 248);
 }
 
 .project-overlay {
@@ -64,9 +65,21 @@
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.github-repo {
+.github-repo button {
   margin-top: 40px;
   border: 2px solid;
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 2px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+
+.github-repo button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -80,17 +93,18 @@
   }
 
   .project {
-    flex: 0 0 calc(50% - 15px);
-    margin-bottom: 0;
+    flex: 0 0 calc(100% - 20px);
+    margin-bottom: 20px;
   }
 
   .project-link {
-    font-size: 10px;
+    font-size: 14px;
     padding: 5px 10px;
   }
 
-  .github-repo {
-    margin-top: 40px;
-    border: 2px solid;
+  .github-repo button {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-top: 20px;
   }
 }

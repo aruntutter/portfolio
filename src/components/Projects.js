@@ -41,6 +41,10 @@ const projectData = [
 ];
 
 const Projects = () => {
+  const goToGitHubRepositories = () => {
+    window.location.href = "https://github.com/aruntutter?tab=repositories";
+  };
+
   return (
     <div id="projects" className="projects-container">
       <div className="projects-title">
@@ -63,7 +67,7 @@ const Projects = () => {
         ))}
       </div>
       <div className="github-repo">
-        <button>GitHub Repository</button>
+        <button onClick={goToGitHubRepositories}>GitHub Repository</button>
       </div>
     </div>
   );
