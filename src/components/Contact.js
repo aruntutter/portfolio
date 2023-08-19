@@ -68,7 +68,6 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      );
       {/* Scroll To Top button */}
       {showScrollToTop && (
         <div className="scroll-to-top" onClick={scrollToTop}>
