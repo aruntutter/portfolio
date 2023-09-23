@@ -38,11 +38,12 @@ const Contact = () => {
           <h1>Contact</h1>
           <p>Get in Touch</p>
           <p>Reach out to me today to initiate a meaningful conversation.</p>
-          <a href="mailto:aruntutter19@gmail.com">aruntutter19@gmail.com</a>
-          <a href="tel:+910000000000">+91 0000000000</a>
+          <div className="contact-link">
+            <a href="mailto:aruntutter19@gmail.com">aruntutter19@gmail.com</a>
+            <a href="tel:+910000000000">+91 0000000000</a>
+          </div>
         </div>
         <div className="contact-form">
-          <h3>You can also contact me by using this form:</h3>
           <form action="">
             <div className="flex-row">
               <div className="flex-half">

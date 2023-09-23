@@ -1,7 +1,7 @@
 /* Home.css */
 .home-container {
-  position: relative;
   height: 100vh;
+  position: relative;
   overflow: hidden;
 }
 

@@ -1,4 +1,5 @@
 .skill-container {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,11 +21,11 @@
 }
 
 .tech-icons ul {
-  width: 100vw;
+  width: 80vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
   padding: 20px;
 }
 
@@ -66,7 +67,7 @@ li {
   .tech-icons ul {
     justify-content: center;
     padding: 0;
-    gap: 7px;
+    gap: 30px;
   }
 
   .tech-icons li {
@@ -77,10 +78,5 @@ li {
     max-width: 40px;
     height: auto;
     margin: 15px;
-  }
-
-  li {
-    border-radius: 50%;
-    border: 2px solid rgb(175, 248, 248);
   }
 }

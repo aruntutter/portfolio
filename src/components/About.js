@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
   // Your LinkedIn profile URL
-  const linkedinProfileURL = "https://www.linkedin.com/in/arunkumar-r2001";
+  const clickasnapProfileURL = "https://www.clickasnap.com/profile/aruntutter";
 
   return (
     <div id="about" className="about-container">
@@ -18,12 +18,13 @@ const About = () => {
           something beautiful together."
         </p>
         <div className="contact-btn">
+          <h4>View some of my unique works 👇</h4>
           <a
-            href={linkedinProfileURL}
+            href={clickasnapProfileURL}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button>Connect</button>
+            <button>My Creativity</button>
           </a>
         </div>
       </div>

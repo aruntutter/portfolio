@@ -7,8 +7,8 @@ const Skills = () => {
       <div className="skill-text">
         <h1>Technical Proficiency</h1>
         <p>
-          In my journey through the dynamic landscape of front-end development,
-          I've honed my skills across various technologies:
+          In my journey through the ever-changing world of front-end
+          development, I've developed expertise in a variety of technologies.
         </p>
       </div>
       <div className="skill-icons">
