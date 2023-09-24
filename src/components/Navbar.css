@@ -10,8 +10,7 @@
   align-items: center;
   background-color: #000;
   color: #fff;
-  padding: 30px 20px;
-  transition: background-color 0.3s;
+  padding: 0px 20px;
 }
 
 .navbar a {
@@ -47,20 +46,14 @@
 }
 
 .portfolio {
-  font-weight: bold;
-  font-size: 1.5rem;
-  letter-spacing: 2px;
-  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
 }
 
-.portfolio span {
-  text-decoration: underline;
-  font-weight: 400;
-}
-
-.portfolio strong {
-  font-size: 1.5rem;
-  font-weight: 500;
+.portfolio img {
+  width: 70%;
+  height: auto;
 }
 
 .navigation-menu {
@@ -69,7 +62,7 @@
 
 @media (max-width: 600px) {
   .navbar {
-    padding: 20px 20px;
+    padding: 0px 20px;
   }
 
   .navbar-left {
@@ -77,13 +70,12 @@
   }
 
   .portfolio {
-    font-size: 20px;
+    padding: 20px 0px;
     margin-left: 0;
   }
 
-  .portfolio strong {
-    font-size: 1.2rem;
-    font-weight: 400;
+  .portfolio img {
+    width: 40%;
   }
 
   .navbar a {

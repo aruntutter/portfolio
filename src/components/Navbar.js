@@ -19,10 +19,12 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${isMenuOpen ? "menu-open" : ""}`}>
       <div className="navbar-left">
-        <h1 className="portfolio">
-          <span>Port</span>
-          <strong>Folio</strong>
-        </h1>
+        <div className="portfolio">
+          <img
+            src={require("../assets/images/portfolio-logo.png")}
+            alt="logo"
+          />
+        </div>
       </div>
       <div className={`navbar-right ${isMenuOpen ? "menu-open" : ""}`}>
         <a href="#home" onClick={() => scrollToSection("home")}>
