@@ -48,11 +48,12 @@
 .portfolio {
   display: flex;
   align-items: center;
-  padding: 10px 0px;
+  padding: 20px 0px;
+  margin-left: 20px;
 }
 
 .portfolio img {
-  width: 70%;
+  width: 80%;
   height: auto;
 }
 
@@ -75,7 +76,7 @@
   }
 
   .portfolio img {
-    width: 40%;
+    width: 45%;
   }
 
   .navbar a {
