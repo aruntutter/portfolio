@@ -19,11 +19,12 @@
 
 .about-description h1 {
   font-size: 2rem;
+  font-family: var(--text-2);
   margin-bottom: 20px;
 }
 
 .about-description p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
 }
 
@@ -33,6 +34,7 @@
 
 .contact-btn h4 {
   padding: 20px 0;
+  font-family: var(--text-2);
 }
 
 .contact-btn button {

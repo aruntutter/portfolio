@@ -66,9 +66,9 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <div className="github-repo">
+      {/* <div className="github-repo">
         <button onClick={goToGitHubRepositories}>GitHub Repository</button>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -72,6 +72,13 @@ const Skills = () => {
                 alt="GitHub"
               />
             </li>
+            {/* Loading icon */}
+            <li>
+              <img
+                src={require("../assets/images/Loading-icon.png")}
+                alt="GitHub"
+              />
+            </li>
           </ul>
         </div>
       </div>

@@ -6,6 +6,7 @@
 
 .projects-title h1 {
   font-size: 2rem;
+  font-family: var(--text-2);
   margin-bottom: 60px;
 }
 
@@ -65,8 +66,13 @@
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+/* .github-repo {
+  padding-bottom: 5px;
+}
+
 .github-repo button {
-  margin-top: 40px;
+  font-family: var(--text-2);
+  margin-top: 0;
   border: 2px solid;
   background-color: transparent;
   color: #fff;
@@ -80,7 +86,7 @@
 .github-repo button:hover {
   background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
-}
+} */
 
 @media (max-width: 768px) {
   .projects-container {
@@ -102,9 +108,10 @@
     padding: 5px 10px;
   }
 
-  .github-repo button {
+  /* .github-repo button {
     font-size: 14px;
     padding: 5px 10px;
     margin-top: 20px;
-  }
+  } */
+
 }

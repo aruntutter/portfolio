@@ -14,6 +14,14 @@
   line-height: 3rem;
 }
 
+.skill-text h1 {
+  font-family: var(--text-2);
+}
+
+.skill-text p {
+  font-size: 18px;
+}
+
 .skill-icons {
   max-width: 100%;
   height: auto;
@@ -40,6 +48,10 @@ li {
   max-width: 100px;
   height: auto;
   margin: 20px;
+}
+
+.tech-icons li:nth-child(11) {
+  background-color: #000;
 }
 
 @media (max-width: 768px) {
@@ -75,7 +87,7 @@ li {
   }
 
   .tech-icons li img {
-    max-width: 40px;
+    max-width: 42px;
     height: auto;
     margin: 15px;
   }

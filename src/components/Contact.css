@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px 0;
+  padding: 30px 0px 40px;
 }
 
 .contact-by {
@@ -14,7 +14,8 @@
 
 .contact-by h1 {
   font-size: 2rem;
-  margin-bottom: 20px;
+  font-family: var(--text-2);
+  margin-bottom: 30px;
 }
 
 .contact-by p {
@@ -34,7 +35,8 @@
   color: #fff;
   display: block;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-family: var(--text-2);
   margin-bottom: 10px;
 
   border: 2px solid #ccc;
@@ -104,7 +106,7 @@
   }
 
   .contact-by {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
   }
 
   .contact-by p:nth-child(2) {
@@ -118,10 +120,10 @@
 
   .contact-by p {
     font-size: 14px;
-    padding: 5px 10px;
+    padding: 0px 10px;
   }
 
-  .contact-by a {
+  .contact-link {
     display: none;
   }
 
@@ -135,6 +137,7 @@
   .contact-form form label {
     display: block;
     font-size: 14px;
+    font-family: var(--text-2);
     margin-bottom: 2px;
   }
 

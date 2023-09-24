@@ -3,7 +3,8 @@ import "./About.css";
 
 const About = () => {
   // Your LinkedIn profile URL
-  const clickasnapProfileURL = "https://www.clickasnap.com/profile/aruntutter";
+  const instaProfileURL =
+    "https://instagram.com/mine.precious.gift?igshid=MzRlODBiNWFlZA==";
 
   return (
     <div id="about" className="about-container">
@@ -13,17 +14,14 @@ const About = () => {
           "I'm deeply passionate about Front-End Development, specializing in
           crafting immersive user interfaces. My focus is on creating
           responsive, visually captivating web experiences. <br />
-          I'm committed to continuous learning and also enjoy capturing moments
-          through photography; you can explore my work right here. Let's create
-          something beautiful together."
+          <br />
+          Committed to lifelong learning and capturing moments through
+          photography. Let's create something beautiful together with a touch of
+          unique crafting!"
         </p>
         <div className="contact-btn">
           <h4>View some of my unique works 👇</h4>
-          <a
-            href={clickasnapProfileURL}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={instaProfileURL} target="_blank" rel="noopener noreferrer">
             <button>My Creativity</button>
           </a>
         </div>

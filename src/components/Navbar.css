@@ -8,9 +8,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000;
   color: #fff;
   padding: 0px 20px;
+
+  background-color: transparent;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
 .navbar a {
@@ -19,6 +21,8 @@
   margin-right: 50px;
   cursor: pointer;
   position: relative;
+  font-family: var(--text-2);
+  font-size: 18px;
 }
 
 .navbar a::before,
@@ -64,6 +68,7 @@
 @media (max-width: 600px) {
   .navbar {
     padding: 0px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   .navbar-left {
