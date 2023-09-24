@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 
 const Home = () => {
@@ -7,16 +7,25 @@ const Home = () => {
     aboutSection.scrollIntoView({ behavior: "smooth" });
   };
 
+  const handleImageLoad = () => {
+    // This function will be called once the image has loaded
+  };
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = require("../assets/images/mountain-img.jpg");
+  }, []);
+
   return (
     <div id="home" className="home-container">
       <div className="background-img">
         <img
           src={require("../assets/images/mountain-img.jpg")}
           alt="Background"
-          loading="eager"
+          onLoad={handleImageLoad}
         />
-        <div className="read-more">
-          <button onClick={scrollToAbout}>Read More</button>
+        <div onClick={scrollToAbout} className="read-more">
+          <button>Read More</button>
         </div>
         <div className="overlay">
           <h1>I'm Arun Kumar R</h1>
