@@ -29,7 +29,11 @@ const About = () => {
         </div>
       </div>
       <div className="about-img">
-        <img src={require("../assets/images/about-img.jpg")} alt="about-img" />
+        <img
+          src={require("../assets/images/about-img.jpg")}
+          alt="about-img"
+          loading="eager"
+        />
       </div>
     </div>
   );

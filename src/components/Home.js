@@ -13,6 +13,7 @@ const Home = () => {
         <img
           src={require("../assets/images/mountain-img.jpg")}
           alt="Background"
+          loading="eager"
         />
         <div className="read-more">
           <button onClick={scrollToAbout}>Read More</button>
