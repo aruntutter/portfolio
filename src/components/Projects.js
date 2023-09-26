@@ -41,9 +41,9 @@ const projectData = [
 ];
 
 const Projects = () => {
-  const goToGitHubRepositories = () => {
-    window.location.href = "https://github.com/aruntutter?tab=repositories";
-  };
+  // const goToGitHubRepositories = () => {
+  //   window.location.href = "https://github.com/aruntutter?tab=repositories";
+  // };
 
   return (
     <div id="projects" className="projects-container">
