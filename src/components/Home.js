@@ -13,14 +13,14 @@ const Home = () => {
 
   useEffect(() => {
     const img = new Image();
-    img.src = require("../assets/images/mountain-img.jpg");
+    img.src = require("../assets/images/vector-mountain.svg");
   }, []);
 
   return (
     <div id="home" className="home-container">
       <div className="background-img">
         <img
-          src={require("../assets/images/mountain-img.jpg")}
+          src={require("../assets/images/vector-mountain.svg")}
           alt="Background"
           onLoad={handleImageLoad}
         />
