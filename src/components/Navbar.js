@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import DropDownMenu from "./DropDownMenu";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -10,6 +11,11 @@ const Navbar = () => {
       element.scrollIntoView({ behavior: "smooth" });
       setIsMenuOpen(false);
     }
+  };
+
+  const handleMenuItemClick = (sectionId) => {
+    console.log("Clicked on:", sectionId);
+    scrollToSection(sectionId);
   };
 
   const toggleMenu = () => {
@@ -27,6 +33,14 @@ const Navbar = () => {
         </div>
       </div>
       <div className={`navbar-right ${isMenuOpen ? "menu-open" : ""}`}>
+        {isMenuOpen && (
+          <div className="dropdown-container">
+            <DropDownMenu
+              isOpen={isMenuOpen}
+              handleMenuItemClick={handleMenuItemClick}
+            />
+          </div>
+        )}
         <a href="#home" onClick={() => scrollToSection("home")}>
           Home
         </a>
